@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="devotag" fetch="https://github.com/DevOtag-Open-Source" />
+
+  <!-- Device, kernel y vendor (DevOtag, branch eleven) -->
+  <project name="android_device_samsung_on7xelte"
+           path="device/samsung/on7xelte"
+           remote="devotag" revision="eleven" />
+  <project name="android_kernel_samsung_exynos7870"
+           path="kernel/samsung/exynos7870"
+           remote="devotag" revision="eleven" />
+  <project name="android_vendor_samsung_on7xelte"
+           path="vendor/samsung/on7xelte"
+           remote="devotag" revision="eleven" />
+  <project name="LineageOS/android_hardware_samsung"
+           path="hardware/samsung"
+           remote="github" revision="lineage-18.1" />
+</manifest>
